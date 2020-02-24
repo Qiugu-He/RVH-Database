@@ -31,3 +31,7 @@ An clustered B+ tree index is added on EmployeeID attribute and careCenterId as 
 
     - Privileges granted to user who needs to know only average department salaries for the HR and CS departments
         - *The SELECT privileges on VIEW DeptInfo;*
+	
+     - Authorize admin_1 to read and modify database (Patient relation and Employee relation)
+        - *GRANT SELECT, INSERT, UPDATE ON Employees TO Joe WITH GRANT OPTION
+	    <br>GRANT SELECT, INSERT,UPDATE ON EmployeeNames To Joe WITH GRANT OPTION*
