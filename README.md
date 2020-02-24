@@ -1,4 +1,4 @@
-# Design and Implementation for the RVH Database
+# RVH Database: Design and Implementation
 
 ## 1. Enhanced Entity Relationship (EER) structure/diagram:
 <img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB/EER.jpg" alt="alt text" width="60%" height="60%">
