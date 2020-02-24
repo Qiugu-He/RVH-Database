@@ -3,7 +3,7 @@
 ## 1. Enhanced Entity Relationship (EER) structure/diagram:
 <img src="https://github.com/Qiugu-He/RVH-Database/blob/master/EER.jpg" alt="alt text" width="60%" height="60%">
 
-## 2. Example of creation relations using Oracle SQL:
+## 2. Example of creation relations with using Oracle:
 <img src="https://github.com/Qiugu-He/RVH-Database/blob/master/Oracle_Sql.jpg" alt="alt text" width="60%" height="60%">
 
 ## 3. Database data:
