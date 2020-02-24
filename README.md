@@ -2,8 +2,13 @@
 
 ## 1. Enhanced Entity Relationship (EER) structure/diagram:
 <img src="https://github.com/Qiugu-He/RVH-Database/blob/master/EER.jpg" alt="alt text" width="60%" height="60%">
+
 ## 2. Example of creation relations using Oracle SQL:
+<img src="https://github.com/Qiugu-He/RVH-Database/blob/master/Oracle_Sql.jpg" alt="alt text" width="60%" height="60%">
+
 ## 3. Database data:
+<img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB_data.png" alt="alt text" width="60%" height="60%">
+
 ## 4. SQL statement to met the user need:
 - In order to meet the user's request to access the data, appropriate SQL should be implemented
 - Performance: to speed up a query, an appropriate index is added to appropriate attribute on each table. For example, un-clustered hash index is using on the attritbute on patient as the patient table it access most frequently. 
