@@ -1,7 +1,7 @@
 # Design and Implementation of  the RVH Database
 
 ## 1. Enhanced Entity Relationship (EER) structure/diagram:
-![alt text](https://github.com/Qiugu-He/RVH-Database/blob/master/EER.jpg){:height="50%" width="50%"}
+![alt text](https://github.com/Qiugu-He/RVH-Database/blob/master/EER.jpg = 250*250)
 ## 2. Example of creation relations using Oracle SQL:
 ## 3. Database data:
 ## 4. SQL statement to met the user need:
