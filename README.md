@@ -33,5 +33,5 @@ An clustered B+ tree index is added on EmployeeID attribute and careCenterId as 
         - *The SELECT privileges on VIEW DeptInfo;*
 	
      - Authorize admin_1 to read and modify database (Patient relation and Employee relation)
-        - *GRANT SELECT, INSERT, UPDATE ON Employees TO admin_1 WITH GRANT OPTION
-	    <br>GRANT SELECT, INSERT,UPDATE ON EmployeeNames To admin_1 WITH GRANT OPTION*
+        - *GRANT SELECT, INSERT, UPDATE ON Patient TO admin_1 WITH GRANT OPTION
+	    <br>GRANT SELECT, INSERT,UPDATE ON Employee To admin_1 WITH GRANT OPTION*
