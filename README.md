@@ -20,18 +20,14 @@ An clustered B+ tree index is added on EmployeeID attribute and careCenterId as 
 	        AS SELECT P.pname 
 	        FROM Person P;*
      - View for number of nurses holding an RN certificate, as well as their total and average salary
-     	-   *CREATE VIEW "NURSE_SUMMARY" ("D", "C", "TOTAL_S", "AVERAGE_S")  
-	    AS SELECT Care.cid AS D, COUNT(care_centre_id) C,  
-	    SUM(Nur.salary) AS TOTAL_S, AVG(Nur.salary) AS AVERAGE_S 
-	    FROM Care_centres Care 
-	    INNER JOIN Nurses Nur 
-	    ON Care.cid = Nur.care_centre_id 
-	    WHERE certificate_type = 'RN' 
-	    GROUP BY Care.cid; *
-     - View for average salary for each department:
-	    -   *CREATE VIEW DeptInfo (dept, avgsalary) 
-		AS SELECT DISTINCT E.dept, AVG (E.salary) AS avgsalary
-		FROM Employee E
-		Group by E.dept;*
+     	-  *CREATE VIEW "NURSE_SUMMARY" ("D", "C", "TOTAL_S", "AVERAGE_S")
+            <br>AS SELECT Care.cid AS D, COUNT(care_centre_id) C,  
+            SUM(Nur.salary) AS TOTAL_S, AVG(Nur.salary) AS AVERAGE_S 
+            <br>FROM Care_centres Care 
+            <br>INNER JOIN Nurses Nur 
+            <br>ON Care.cid = Nur.care_centre_id 
+            <br>WHERE certificate_type = 'RN' 
+            <br>GROUP BY Care.cid*
+
     - Privileges granted to user who needs to know only average department salaries for the HR and CS departments
         - *The SELECT privileges on VIEW DeptInfo;*
