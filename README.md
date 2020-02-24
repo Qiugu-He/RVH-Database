@@ -1,13 +1,13 @@
 # Design and Implementation for the RVH Database
 
 ## 1. Enhanced Entity Relationship (EER) structure/diagram:
-<img src="https://github.com/Qiugu-He/RVH-Database/blob/master/EER.jpg" alt="alt text" width="60%" height="60%">
+<img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB/EER.jpg" alt="alt text" width="60%" height="60%">
 
 ## 2. Some created relations with using Oracle:
-<img src="https://github.com/Qiugu-He/RVH-Database/blob/master/Oracle_Sql.jpg" alt="alt text" width="60%" height="60%">
+<img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB/Oracle_Sql.jpg" alt="alt text" width="60%" height="60%">
 
 ## 3. Database data:
-<img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB_data.png" alt="alt text" width="60%" height="60%">
+<img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB/DB_data.png" alt="alt text" width="60%" height="60%">
 
 ## 4. SQL statement to meet the user's request:
 - In order to access the data for specific user's reuqest, an appropriate SQL is be implemented
