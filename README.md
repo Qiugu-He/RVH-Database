@@ -3,10 +3,10 @@
 ### 1. EER diagram/structure:
 <img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB/EER.jpg" alt="alt text" width="60%" height="60%">
 
-### 2. Some created relations with using Oracle:
+### 2. Relation creations with using Oracle:
 <img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB/Oracle_Sql.jpg" alt="alt text" width="60%" height="60%">
 
-### 3. Database data:
+### 3. Database simple data:
 <img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB/DB_data.png" alt="alt text" width="60%" height="60%">
 
 ### 4. SQL statement to meet the user's request:
