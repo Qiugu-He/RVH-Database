@@ -1,6 +1,6 @@
 # RVH Database: Design and Implementation
 
-### 1. DB EER diagram/structure:
+### 1. EER diagram/structure:
 <img src="https://github.com/Qiugu-He/RVH-Database/blob/master/DB/EER.jpg" alt="alt text" width="60%" height="60%">
 
 ### 2. Some created relations with using Oracle:
